@@ -5,7 +5,15 @@ public class Customer implements Entity{
 	int id;
 	String firstName;
 	String lastName;
-	String nationalityId;
+	Long nationalityId;
+	int birthYear;
+	
+	public int getBirthYear() {
+		return birthYear;
+	}
+	public void setBirthYear(int birthYear) {
+		this.birthYear=birthYear;
+	}
 	public int getId() {
 		return id;
 	}
@@ -24,11 +32,11 @@ public class Customer implements Entity{
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getNationalityId() {
+	public Long getNationalityId() {
 		return nationalityId;
 	}
-	public void setNationalityId(String nationalityId) {
-		this.nationalityId = nationalityId;
+	public void setNationalityId(long i) {
+		this.nationalityId = i;
 	}
 
 }
