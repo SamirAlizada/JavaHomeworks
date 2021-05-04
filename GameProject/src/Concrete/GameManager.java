@@ -1,4 +1,4 @@
-package Concrate;
+package Concrete;
 import Abstract.GameService;
 import Entities.Game;
 

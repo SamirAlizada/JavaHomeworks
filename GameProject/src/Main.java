@@ -1,9 +1,10 @@
 import java.time.LocalDate;
-import Concrate.CampaignManager;
-import Concrate.GameManager;
-import Concrate.SaleManager;
-import Concrate.UserManager;
-import Concrate.VerificationManager;
+
+import Concrete.CampaignManager;
+import Concrete.GameManager;
+import Concrete.SaleManager;
+import Concrete.UserManager;
+import Concrete.VerificationManager;
 import Entities.Campaign;
 import Entities.Game;
 import Entities.Sale;

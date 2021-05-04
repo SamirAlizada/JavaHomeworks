@@ -3,7 +3,7 @@ package Entities;
 import java.time.LocalDate;
 
 import Abstract.Entity;
-import Concrate.CampaignManager;
+import Concrete.CampaignManager;
 
 public class Sale implements Entity{
 	CampaignManager campaignManager;

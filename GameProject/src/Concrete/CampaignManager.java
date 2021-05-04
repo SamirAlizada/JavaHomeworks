@@ -1,4 +1,4 @@
-package Concrate;
+package Concrete;
 import Abstract.CampaignService;
 import Entities.Campaign;
 
