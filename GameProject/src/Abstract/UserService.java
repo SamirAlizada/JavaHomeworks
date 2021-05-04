@@ -4,7 +4,7 @@ import Entities.User;
 
 public interface UserService {
 	
-	void save(User user);
+	void register(User user);
 	void updateData(User user);
 	void deleteData(User user);
 

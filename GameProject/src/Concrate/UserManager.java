@@ -11,7 +11,7 @@ public class UserManager implements UserService{
 	}
 
 	@Override
-	public void save(User user) {
+	public void register(User user) {
 		if (verification.checkIfRealPerson(user)) {
 			System.out.println("Oyuncu sisteme eklendi."+"\n"+"\n"+"Oyuncu ismi :"+user.getFullName()+"\n"+"Oyuncu kimlik numarasý :"+user.getNationalityId()+"\n"+"Oyuncu doðum tarihi :"+user.getBirthYear()+"\n"+"Oyuncunun sistemdeki ID numarasý :"+user.getId()+"\n");
 		}else {
